@@ -58,15 +58,94 @@
         animation-direction: alternate;
     }
 
-    .transaciones1 {
+    .transaciones1{
         width: 100px;
         height: 100px;
-        background: rgb(0, 255, 76);
+        animation: animacion2 10s infinite;
+        transition: width 2s, height 4s;
+      }
+      
+      .transaciones1:hover {
+        width: 300px;
+        height: 300px;
+      }
+
+      #div1{
+        background-color: cornflowerblue;
+        width: 400px;
+     
+      }
+
+
+      #art1,
+      #art2,
+      #art3,
+      #art4,
+      #art5 {
+        width: 100px;
+        height: 100px;
+        animation: animacion2 10s infinite;
+        transition: width 2s;
+      }
+      
+
+      #art1 {transition-timing-function: linear;}
+      #art2 {transition-timing-function: ease;}
+      #art3 {transition-timing-function: ease-in;}
+      #art4 {transition-timing-function: ease-out;}
+      #art5 {transition-timing-function: ease-in-out;}
+      
+      #art1:hover {
+        width: 300px;
+      }
+      #art2:hover {
+        width: 300px;
+      }
+      #art3:hover {
+        width: 300px;
+      }
+      #art4:hover {
+        width: 300px;
+      }
+      #art5:hover {
+        width: 300px;
+      }
+      
+
+
+      #art6 {
+        animation: animacion2 10s infinite;
+        width: 100px;
+        height: 100px;
         transition: width 2s, height 2s, transform 2s;
       }
       
-      transaciones1:hover {
+      #art6:hover {
         width: 300px;
         height: 300px;
-        transform: rotate(180deg);
+        transform: rotate(180deg);  
+      }
+
+      #art7 {
+        width: 100px;
+        height: 100px;
+        animation: animacion2 10s infinite;
+        transition: width 2s linear 1s;
+      }
+
+      #art7:hover {
+        width: 300px;
+      }
+
+      #art8 {
+        animation: animacion2 10s infinite;
+        width: 100px;
+        height: 100px;
+        transition: width 2s linear 1s, height 2s, transform 2s;
+      }
+      
+      #art8:hover {
+        width: 300px;
+        height: 300px;
+        transform: rotate(180deg);  
       }
