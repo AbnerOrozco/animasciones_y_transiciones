@@ -149,3 +149,19 @@
         height: 300px;
         transform: rotate(180deg);  
       }
+
+      #div2{
+        background-color: rgb(179, 160, 136);
+        width: 500px;
+        height: 1000px;
+      }
+
+      .animate__animated {
+        --animate-duration: 4s;
+      }
+      
+      /* This changes all the animations globally */
+      :root {
+        --animate-duration: 800ms;
+        --animate-delay: 1s;
+      }
