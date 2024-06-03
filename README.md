@@ -29,7 +29,7 @@
 > Referencia : https://animate.style/
 >
 > biblioteca2.html:
-> Esta página contará con diversos elementos con animaciones, transiciones y/o 
-> transformaciones CSS, para ello busque una herramienta
+> Esta página cuenta con diversos elementos con animaciones, transiciones y/o 
+> transformaciones CSS, se realizo busqueda de herramientas
 >(biblioteca, framework, etc.) para dicho fin.
 >
